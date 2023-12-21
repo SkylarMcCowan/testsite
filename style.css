@@ -1,134 +1,43 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+/*
+Theme Name: Skylar's Modern Theme
+Author: Skylar McCowan
+Description: A modern and responsive WordPress theme.
+Version: 1.0
+*/
 
-\f0\fs24 \cf0 /*\
-Theme Name: Skylar's Modern Theme\
-Theme URI: http://example.com/skylars-modern-theme\
-Author: Skylar McCowan\
-Author URI: http://example.com\
-Description: A sleek, modern WordPress theme for showcasing professional skills.\
-Version: 1.0\
-License: GNU General Public License v2 or later\
-License URI: http://www.gnu.org/licenses/gpl-2.0.html\
-Tags: modern, sleek, professional\
-Text Domain: skylars-modern-theme\
-*/\
-\
-/* Reset & Basic Styling */\
-body \{\
-    font-family: 'Helvetica Neue', Arial, sans-serif;\
-    line-height: 1.6;\
-    color: #333;\
-    padding: 0;\
-    margin: 0;\
-    background-color: #f4f4f4;\
-\}\
-\
-a \{\
-    color: #005f73;\
-    text-decoration: none;\
-\}\
-\
-a:hover \{\
-    color: #00b4d8;\
-\}\
-\
-/* Container */\
-.container \{\
-    max-width: 1100px;\
-    margin: auto;\
-    overflow: hidden;\
-    padding: 0 20px;\
-\}\
-\
-/* Header */\
-header \{\
-    background: #005f73;\
-    color: #edf6f9;\
-    padding-top: 30px;\
-    min-height: 80px;\
-    border-bottom: #00b4d8 1px solid;\
-\}\
-\
-header h1 \{\
-    float: left;\
-    font-size: 24px;\
-\}\
-\
-header nav \{\
-    float: right;\
-    margin-top: 10px;\
-\}\
-\
-header nav ul \{\
-    list-style: none;\
-    margin: 0;\
-    padding: 0;\
-\}\
-\
-header nav ul li \{\
-    display: inline;\
-    margin-right: 10px;\
-\}\
-\
-header nav ul li a \{\
-    color: #edf6f9;\
-    padding: 5px 10px;\
-    border-radius: 5px;\
-    transition: background-color 0.3s;\
-\}\
-\
-header nav ul li a:hover \{\
-    background-color: #00b4d8;\
-\}\
-\
-/* Main Content */\
-section \{\
-    padding: 20px 0;\
-    background: #fff;\
-    margin-bottom: 20px;\
-\}\
-\
-article \{\
-    margin-bottom: 40px;\
-\}\
-\
-article h2 \{\
-    color: #005f73;\
-\}\
-\
-/* Footer */\
-footer \{\
-    background: #005f73;\
-    color: #edf6f9;\
-    text-align: center;\
-    padding: 20px 0;\
-\}\
-\
-footer p \{\
-    margin: 0;\
-\}\
-\
-/* Responsive Design */\
-@media only screen and (max-width: 768px) \{\
-    header h1, header nav \{\
-        float: none;\
-        text-align: center;\
-    \}\
-\
-    header nav ul li \{\
-        display: block;\
-        margin-top: 10px;\
-    \}\
-\
-    header nav ul li a \{\
-        display: block;\
-    \}\
-\}\
-\
-/* Additional Styling as Needed */\
+/* Basic Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: #333;
 }
+
+/* Container for centering the content */
+.container {
+    width: 80%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Site Header */
+.site-header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.header-title {
+    font-size: 24px;
+    color: #000;
+    margin: 0;
+}
+
+/* Navigation Styles */
+.site-navigation {
+    /* Define your navigation styles here */
+}
+
+/* Add additional styles below */
